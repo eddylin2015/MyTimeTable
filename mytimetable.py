@@ -16,3 +16,10 @@ for i in range(332):
     if _date.weekday()==6: continue
     if _date_str in holiday: continue
     print(f"{_date.strftime('%Y-%m-%d')}	{times_def[_date.weekday()]}	1")#{_date.weekday()}")
+
+print("""2026-08-25	09:00	16:00	1
+2026-08-26	09:00	16:00	1
+2026-08-27	09:00	16:00	1
+2026-08-28	09:00	16:00	1
+2026-08-29	09:00	13:00	1
+2026-08-31	09:00	16:00	1""")
